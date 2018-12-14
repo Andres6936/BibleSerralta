@@ -1,0 +1,33 @@
+div#wrapper {
+    border:2px solid black;
+}
+
+div#header {
+    border:2px solid red;
+    float: top
+}
+
+div#content {
+    border:2px solid #CCC;
+    float: right
+}
+
+div#articles {
+    border:2px solid aqua;
+    float: left
+}
+
+div#menu {
+    border:2px solid blue;
+    float:right
+}
+
+div#sidebar {
+    border:2px solid yellowgreen;
+    float: top;
+}
+
+div#footer {
+    border:2px solid green;
+    float: bottom;
+}
