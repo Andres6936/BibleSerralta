@@ -1,33 +1,67 @@
-div#wrapper {
+/* Style for tag <div> in index page */
+
+#wrapper {
     border:2px solid black;
+    width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #FAFAFA;
 }
 
-div#header {
+#header {
     border:2px solid red;
-    float: top
+    margin: 5px;
+    text-align: center;
 }
 
-div#content {
+#content {
     border:2px solid #CCC;
-    float: right
+    margin: 5px;
 }
 
-div#articles {
+#articles {
     border:2px solid aqua;
-    float: left
+    margin: 5px;
 }
 
-div#menu {
+#menu {
     border:2px solid blue;
-    float:right
+    margin: 5px;
 }
 
-div#sidebar {
+#sidebar {
     border:2px solid yellowgreen;
-    float: top;
+    margin: 5px;
 }
 
-div#footer {
+#footer {
     border:2px solid green;
-    float: bottom;
+    margin: 5px;
+}
+
+#index
+{
+    border:2px solid purple;
+    margin: 5px;
+}
+
+/* Style for all pages */
+
+/* Link to index, this is implement in all pages less in index */
+#index a
+{
+    color: dodgerblue;
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+}
+
+/* Style blockquote for all pages */
+blockquote
+{
+    font-style: italic;
+    font-size: 20px;
 }
