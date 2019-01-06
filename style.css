@@ -1,67 +1,64 @@
-/* Style for tag <div> in index page */
+/* Style for index page */
 
-#wrapper {
-    border:2px solid black;
-    width: 800px;
-    margin: 20px auto;
-    padding: 30px;
-    background-color: #FAFAFA;
+body {
+    border:2px solid gray;
+    margin: 5px auto;
 }
 
-#header {
-    border:2px solid red;
+nav {
     margin: 5px;
+    padding: 5px;
+}
+
+/* Style fo Navigation Bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    border: 1px solid #E7E7E7;
+    background-color: #F3F3F3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
     text-align: center;
+    color: #666666;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-#content {
-    border:2px solid #CCC;
+li a:hover {
+    background-color: floralwhite;
+}
+
+
+main {
+    border:2px solid gray;
     margin: 5px;
+    display: flex;
 }
 
-#articles {
-    border:2px solid aqua;
+aside {
+    border:2px solid gray;
     margin: 5px;
+    padding: 5px 5px;
+    flex: 25%;
 }
 
-#menu {
-    border:2px solid blue;
+article {
+    border:2px solid gray;
     margin: 5px;
+    padding: 5px 5px;
+    flex: 75%;
 }
 
-#sidebar {
-    border:2px solid yellowgreen;
+footer {
+    border:2px solid gray;
     margin: 5px;
-}
-
-#footer {
-    border:2px solid green;
-    margin: 5px;
-}
-
-#index
-{
-    border:2px solid purple;
-    margin: 5px;
-}
-
-/* Style for all pages */
-
-/* Link to index, this is implement in all pages less in index */
-#index a
-{
-    color: dodgerblue;
-    text-align: center;
-}
-
-h1
-{
-    text-align: center;
-}
-
-/* Style blockquote for all pages */
-blockquote
-{
-    font-style: italic;
-    font-size: 20px;
 }

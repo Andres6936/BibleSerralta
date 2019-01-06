@@ -1,0 +1,26 @@
+/* Style for all pages */
+
+#index
+{
+    border:2px solid gray;
+    margin: 5px;
+}
+
+/* Link to index, this is implement in all pages less in index */
+#index a
+{
+    color: dodgerblue;
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+}
+
+/* Style blockquote for all pages */
+blockquote
+{
+    font-style: italic;
+    font-size: 20px;
+}
