@@ -1,13 +1,17 @@
-/* Style for index page */
+/* Style for body, header and nav page */
 
 body {
-    border:2px solid gray;
-    margin: 5px auto;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+header {
+
 }
 
 nav {
     margin: 5px;
-    padding: 5px;
 }
 
 /* Style fo Navigation Bar */
@@ -37,28 +41,145 @@ li a:hover {
     background-color: floralwhite;
 }
 
+/* Style for main and articles */
 
 main {
-    border:2px solid gray;
-    margin: 5px;
-    display: flex;
-}
-
-aside {
-    border:2px solid gray;
-    margin: 5px;
-    padding: 5px 5px;
-    flex: 25%;
+    display: block;
+    overflow: hidden;
 }
 
 article {
+    display: block;
     border:2px solid gray;
     margin: 5px;
     padding: 5px 5px;
-    flex: 75%;
+}
+
+/* First Articles, The Book Daniel */
+
+#book-daniel {
+    background: #0060DF;
+    background: url("images/background/blue-acuarela.png") center center no-repeat,
+        linear-gradient(to bottom, #0060DF 7%, #0095FF 100%);
+    color: white;
+    padding: 40px 0;
+}
+
+#book-daniel h2 {
+    font-size: 36px;
+    margin-bottom: 1em;
+}
+
+#book-daniel p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto 1em;
+    max-width: 32em;
+}
+
+#book-daniel .content-wrapper {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.intro-section {
+    text-align: center;
+}
+
+#logo-bible {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 1em;
+}
+
+#logo-bible::before {
+    background-size: 128px 128px;
+    background: url("images/logos/bible.png") no-repeat;
+    height: 128px;
+    width: 128px;
+    content: '';
+    display: block;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.download-button {
+    display: inline-block;
+    vertical-align: top;
+}
+
+ul.download-list {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+ul.download-list li {
+    margin-left: 0;
+}
+
+.button.button-green, a.button:link.button-green,
+a.button:visited.button-green {
+    background-color: #16DA00;
+    border-color: #16DA00;
+    color: white;
+}
+
+.button strong, a.button:link strong {
+    font-weight: 700;
+}
+
+.more-information {
+    font-size: 12px;
+    display: block;
+    text-align: center;
+}
+
+.more-information a:link, .more-information a:visited {
+    color: white;
+    text-decoration: none;
 }
 
 footer {
+    background-color: dodgerblue;
     border:2px solid gray;
     margin: 5px;
+}
+
+footer address {
+    margin: 5px;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6, legend{
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 0.25em;
+    padding: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button, a.button:link, a.button:visited {
+    font-size: 16px;
+    background: 0 0;
+    border-radius: 2px;
+    border: 2px solid;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: .9em 40px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    transition: background-color .1s ease-in-out,
+        border-color .1s ease-in-out;
 }
