@@ -202,10 +202,8 @@ a.button:visited.button-green {
     padding: 0 0 20px;
 }
 
-#book-feacture ul li.help-understand-prophecy h3 {
-    background-position: center top -752px;
-    min-height: 19px;
-    padding-top: 40px;
+#book-feacture ul li:last-child {
+    border-bottom: none;
 }
 
 #book-feacture h3 {
