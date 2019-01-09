@@ -150,14 +150,14 @@ a.button:visited.button-green {
 
 /* Second Section, The Feactures Book */
 
-#book-feacture {
+#book-feature {
     background: #C42482 linear-gradient(222deg, #FF272D 0, #C42482 33%,
     #AB217F 47%, #671878 84%, #4A1475 100%);
     color: white;
     padding: 60px 0;
 }
 
-#book-feacture .content-wrapper {
+#book-feature .content-wrapper {
     width: auto;
     padding: 20px 60px;
     box-sizing: border-box;
@@ -166,11 +166,11 @@ a.button:visited.button-green {
     position: relative;
 }
 
-#book-feacture header {
+#book-feature header {
     margin-bottom: 60px;
 }
 
-#book-feacture h2.section-title {
+#book-feature h2.section-title {
     padding-top: 30px;
     margin-bottom: 20px;
     font-size: 24px;
@@ -178,7 +178,7 @@ a.button:visited.button-green {
     position: relative;
 }
 
-#book-feacture h2.section-title::before {
+#book-feature h2.section-title::before {
     background: white;
     border-radius: 5px;
     content: '';
@@ -190,28 +190,28 @@ a.button:visited.button-green {
     width: 64px;
 }
 
-#book-feacture .tagline {
+#book-feature .tagline {
     font-size: 1rem;
     margin-bottom: 40px;
 }
 
-#book-feacture ul li {
+#book-feature ul li {
     border-bottom: 1px solid white;
     margin: 0 auto 40px;
     max-width: 30em;
     padding: 0 0 20px;
 }
 
-#book-feacture ul li:last-child {
+#book-feature ul li:last-child {
     border-bottom: none;
 }
 
-#book-feacture h3 {
+#book-feature h3 {
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-#book-feacture ul li p {
+#book-feature ul li p {
     max-width: 20em;
     margin: 0 auto 1.25em;
 }
