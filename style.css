@@ -87,8 +87,30 @@ article {
     text-align: center;
 }
 
+.page-section h2.section-title {
+    padding-top: 30px;
+    position: relative;
+}
+
+.page-section h2.section-title::before {
+    background: black;
+    border-radius: 5px;
+    content: '';
+    height: 5px;
+    left: 50%;
+    margin-left: -32px;
+    position: absolute;
+    top: 0;
+    width: 64px;
+}
+
 .page-section p {
     line-height: 1.8;
+}
+
+.page-section h2 {
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .page-section h3 {
@@ -214,6 +236,54 @@ a.button:visited.button-green {
 #book-feature ul li p {
     max-width: 20em;
     margin: 0 auto 1.25em;
+}
+
+#autor-feature .content-wrapper {
+    width: auto;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    min-width: 300px;
+    position: relative;
+}
+
+#autor-feature .content-wrapper::after {
+    clear: both;
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+#comment-autor-section {
+    background-size: 350px 305px;
+    min-height: 305px;
+    padding-top: 40px;
+    background: url("images/face/face-christ.jpg") no-repeat top left;
+}
+
+#comment-autor-section::after {
+    clear: both;
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+#comment-autor-section h2 {
+    margin-bottom: 20px;
+}
+
+#comment-autor-section h2.section-title::before {
+    left: auto;
+    margin-left: 0;
+    right: 0;
+}
+
+#comment-autor-content {
+    float: right;
+    text-align: right;
+    width: 45%;
 }
 
 footer {
