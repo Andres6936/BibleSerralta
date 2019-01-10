@@ -354,9 +354,26 @@ footer {
     display: block;
 }
 
-footer address {
-    margin: 5px;
-    color: white;
+footer .content-wrapper {
+    width: auto;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    min-width: 300px;
+    position: relative;
+}
+
+footer .content-wrapper::after {
+    clear: both;
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+footer .content-wrapper small {
+    font-size: 14px;
+    margin-bottom: 0;
 }
 
 h1, h2, h3, h4, h5, h6, legend{
